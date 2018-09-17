@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SJLoadStatusView_Swift_Example' do
+  pod 'SJLoadStatusView_Swift', :path => '../'
+
+  target 'SJLoadStatusView_Swift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
